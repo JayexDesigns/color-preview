@@ -4,6 +4,10 @@ body, body * {
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    overflow: hidden;
+}
+
 
 
 #container {
@@ -15,12 +19,12 @@ body, body * {
 
 #container > h1 {
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 6.5vw;
     text-transform: uppercase;
 }
 
 #container > #color-code {
-    letter-spacing: 0.65rem;
+    letter-spacing: 1vw;
 }
 
 #alert {
