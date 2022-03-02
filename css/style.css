@@ -21,6 +21,7 @@ body {
     font-weight: 700;
     font-size: 6.5vw;
     text-transform: uppercase;
+    text-align: center;
 }
 
 #container > #color-code {
