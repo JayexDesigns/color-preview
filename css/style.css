@@ -1,90 +1,91 @@
-body, body * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
+body,
+body * {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
 }
 
 body {
-    overflow: hidden;
+	overflow: hidden;
 }
 
-
-
 #container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 #container > h1 {
-    font-weight: 700;
-    font-size: 6.5vw;
-    text-transform: uppercase;
-    text-align: center;
+	font-weight: 700;
+	font-size: 6.5vw;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 #container > #color-code {
-    letter-spacing: 1vw;
+	letter-spacing: 1vw;
 }
 
 #alert {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
 }
 
 #alert > * {
-    color: #1a1a1a;
-    margin: 0.5rem 0;
+	color: #1a1a1a;
+	margin: 0.5rem 0;
+	text-align: center;
 }
 
 #alert > h1 {
-    font-size: 3rem;
-    font-weight: 700;
+	font-size: 3rem;
+	font-weight: 700;
 }
 
 #alert > p {
-    font-weight: 600;
+	font-weight: 600;
 }
 
 #alert > p > a {
-    position: relative;
-    text-decoration: none;
-    padding: 0 0.4rem;
-    color: #1a1a1a;
-    transition: .25s ease;
+	position: relative;
+	text-decoration: none;
+	padding: 0 0.4rem;
+	color: #1a1a1a;
+	transition: 0.25s ease;
+	white-space: nowrap;
 }
 
 #alert > p > a:hover {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 #alert > p > a:after {
-    position: absolute;
-    display: block;
-    right: 0;
-    bottom: -0.35rem;
-    content: "";
-    width: 100%;
-    height: 0.15rem;
-    background-color: #ff0066;
-    transition: .25s ease;
-    z-index: -1;
+	position: absolute;
+	display: block;
+	right: 0;
+	bottom: -0.35rem;
+	content: "";
+	width: 100%;
+	height: 0.15rem;
+	background-color: #ff0066;
+	transition: 0.25s ease;
+	z-index: -1;
 }
 
 #alert > p > a:hover:after {
-    height: calc(100% + 0.5rem);
+	height: calc(100% + 0.5rem);
 }
 
 #alert > i {
-    font-weight: 500;
-    font-size: 0.8rem;
-    color: #aaaaaa;
+	font-weight: 500;
+	font-size: 0.8rem;
+	color: #aaaaaa;
 }
